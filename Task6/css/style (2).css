@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(255, 250, 252);
+    height: 1000px;
+    
+
+}
+
+.header {
+    width: 93%;
+    height: 60px;
+    background-color: rgb(176, 176, 176);
+    position: fixed;
+    margin: 10px 50px;
+    border-radius: 10px;
+    opacity: 0.7;
+    top: 0;
+    z-index: 10;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    list-style: none;
+    float: right;
+
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: aliceblue;
+     border: 1px solid rgb(244, 234, 234);
+    padding: 2px 15px;
+    background-color: rgb(104, 106, 107);
+    border-radius: 5px;
+}
+
+.header img {
+    width: 120px;
+    height: 60px;
+    margin-left: 30px;
+    float: left;
+    border-radius: 30px;
+}
+
+.links li:hover {
+    background-color: rgb(241, 245, 246);
+    color: black;
+    
+}
+
+.tit1 {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.tit1 h2 {
+    font-size: 2rem;
+
+}
+
+hr {
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 20px auto;
+}
+
+.parent {
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(160, 163, 164);
+    margin-left: 70px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 50px;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+
+
+.pricing h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 10px auto 30px;
+}
+
+
+.card {
+    background: white;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    
+    float: left;
+    height: 500px;
+    margin-left: 80px;
+}
+
+.card h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.price-circle {
+    border: 1px solid #0d0c0c;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+    margin: 25px auto;
+    
+}
+
+.price-circle span {
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card ul li {
+    border-top: 1px solid #191a1d;
+    padding: 10px 0;
+}
+
+.card p.desc {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+.card .btn {
+    background-color: rgb(104, 106, 107);
+    color: rgb(223, 215, 215);
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.card .btn:hover {
+    background-color: #0d0c0c;
+}
