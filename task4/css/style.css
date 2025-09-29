@@ -1,0 +1,175 @@
+body {
+    background: #fff1f8;
+    height: 1100px;
+}
+
+.title1 {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tit1 {
+    margin-bottom: 10px;
+
+    font-size: 30px;
+    font-style: italic;
+    border-radius: 5px;
+    color: black;
+}
+
+hr {
+    width: 200px;
+
+}
+
+.div1,
+.div2,
+.div3 {
+    width: 310px;
+    height: 550px;
+    float: left;
+    background-color: white;
+    margin: 70px 80px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.FLOWER {
+    overflow: auto;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 310px;
+    height: 210px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.card1 {
+    background-image: url(../Images/247836.jpg);
+}
+
+.card2 {
+    background-image: url(../Images/gavander.jpg);
+}
+
+.card3 {
+    background-image: url(../Images/bac3.webp);
+}
+
+.cirCard1,
+.cir2,
+.cir3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+}
+
+.cirCard1 {
+    background-image: url(../Images/sun.jpg);
+}
+
+.cir2 {
+    background-image: url(../Images/lav.webp);
+}
+
+.cir3 {
+    background-image: url(../Images/zabac.jpg);
+}
+
+.tit11,
+.tit2,
+.tit3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.par1,
+.par2,
+.par3 {
+    text-align: center;
+    font-weight: 300px;
+
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    margin-top: 50px;
+    width: 130px;
+    height: 50px;
+    background-color: #e091b2;
+    color: #fffafc;
+
+}
+
+
+.btn3:hover {
+    background-color: #f3c1d4;
+    font-size: 18px;
+}
+
+.btn1:hover {
+    background-color: #f3c1d4;
+    font-size: 18px;
+}
+
+.btn2:hover {
+    background-color: #f3c1d4;
+    font-size: 18px;
+}
+
+.bac {
+    background-image: url(../Images/bac.jpg);
+    border-radius: 5px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.cir11,
+.cir22,
+.cir33 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin: 70px 80px;
+
+}
+
+.cir11 {
+    background-image: url(../Images/sun.jpg);
+
+}
+
+.cir22 {
+    background-image: url(../Images/lav.webp);
+
+}
+
+.cir33 {
+
+    background-image: url(../Images/zabac.jpg);
+}
