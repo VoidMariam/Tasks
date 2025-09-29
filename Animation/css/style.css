@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    width: 1400px;
+}
+
+.shape {
+    width: 90px;
+    height: 90px;
+    background-color: navy;
+    position: absolute;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    
+}
+
+
+.shape1 {
+    top: 50px;
+    left: 0;
+    animation-name: moveRight;
+   
+}
+
+.shape2 {
+    top: 150px;
+    right: 0;
+    animation-name: moveLeft;
+    animation-delay: 2s; 
+}
+
+.shape3 {
+    top: 250px;
+    left: 0;
+    animation-name: moveRight;
+    animation-delay: 4s; 
+}
+
+.shape4 {
+    top: 350px;
+    right: 0;
+    animation-name: moveLeft;
+    animation-delay: 6s;
+}
+
+.shape5 {
+    top: 450px;
+    left: 0;
+    animation-name: moveRight;
+    animation-delay: 8s;
+}
+
+.shape6 {
+    top: 550px;
+    right: 0;
+    animation-name: moveLeft;
+    animation-delay: 10s;
+}
+
+
+@keyframes moveRight {
+    0% { left: 0; }
+    100% { left: 1450px; }
+}
+
+@keyframes moveLeft {
+    0% { right: 0; }
+    100% { right: 1450px; }
+}
